@@ -167,9 +167,9 @@ header nav a {
   text-decoration: none;
   color: black;
 }
-h2{
-    margin-top:2%;
-    margin-bottom:2%;
+h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .top-content {
   display: flex;
@@ -179,10 +179,12 @@ h2{
   border-bottom: 1px dashed black;
 }
 .about-top-content,
-.end-content,
+.end-content{
+  justify-content: left;
+}
 .about-top-content h2,
 .end-content h2 {
-  justify-content: left;
+  text-align: left;
 }
 .top-content .text-container,
 .text-container {
@@ -190,31 +192,31 @@ h2{
   padding: 0 1%;
   padding-bottom: 20px;
 }
-.about-top-content{
-    padding:3% 2%;
+.about-top-content {
+  padding: 3% 2%;
 }
 .about-main-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 20px;
-  margin-left:1%;
+  margin-left: 1%;
 }
 .about-text-container {
   border-bottom: 1px dashed black;
-  padding-right:0px;
-  padding-left:0px;
-  margin-bottom:2%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 2%;
 }
-.about-text-container *{
-    margin-bottom:3%;
+.about-text-container * {
+  margin-bottom: 3%;
 }
-button{
-    width:33%;
-    border-radius:10px;
-    border:2px solid black;
-    padding:5px;
-    font-size: 15px;
+button {
+  width: 33%;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 15px;
 }
 .middle-content {
   margin-bottom: 20px;
@@ -280,7 +282,7 @@ button{
 .end-content {
   display: flex;
   flex-wrap: wrap;
-  padding:0 2%;
+  padding: 0 2%;
   margin-bottom: 20px;
 }
 .bottom-content .text-container {
