@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is usign tags that have meaning- not only structurally but in a way that is logical for humans and accessibility programs to be able to decipher a webpage for people with disabilities. Another key reason it is important is it can make or break a webpage based on the search algorithms used in search engines, for example Google's Search Engine. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The inline display will cause items to be on the same row if the space is available to do so and it will usually make the box only as wide as the content, unless the CSS states other paramaters. The block display will have a more box-y feel than inline. Items will be stacked vertically in a column more than in a row. The width will default to the entire page, unless different paramaters are given in the CSS.   
 
 3. What are the 4 areas of the box model?
 
+Margin, which is the space between the border of the box and another box. Border, which is the outline of the box and separates the margin from the padding and can be given various colors, thickness, and patterns. Padding, is the space between the edge of the content and the start of the border, it's background will determine the main color of background for the focus of the box as it contains the content inside of it. Content, is the center of the box where all the words, pictures, or media go.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis is the point of reference when align-items is used to center the content in a flexbox.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a valuable resource to a group of developers because they can all simultaneously work on a project individually and remain in sync with one another by periodically/frequently submitting their code, reviewing, and merging it with one another as it is updated. It enables the collaboration process to run very smoothly, with less hiccups and confusion. It is a game changer for developers, hands down. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
