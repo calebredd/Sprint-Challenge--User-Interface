@@ -179,7 +179,7 @@ h2 {
   border-bottom: 1px dashed black;
 }
 .about-top-content,
-.end-content{
+.end-content {
   justify-content: left;
 }
 .about-top-content h2,
@@ -291,6 +291,18 @@ button {
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
+}
+.blog-post {
+  background: light-gray;
+  border-radius: 10px;
+  margin: 5%;
+  border: 3px solid gray;
+  padding: 20px;
+  box-shadow: 10px 10px 5px lightgray;
+}
+.product-main-content img {
+  width: 25vw;
+  height: 20vw;
 }
 footer {
   width: 100%;
