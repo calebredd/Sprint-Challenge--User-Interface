@@ -304,6 +304,15 @@ button {
   width: 25vw;
   height: 20vw;
 }
+button:hover {
+  font-weight: bolder;
+  border-radius: 3px solid black;
+  box-shadow: 5px 5px 5px gray;
+}
+a:hover {
+  font-weight: bolder;
+  color: gray;
+}
 footer {
   width: 100%;
   background: black;
